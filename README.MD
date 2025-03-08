@@ -9,7 +9,7 @@ This API allows users to **add schools** and **retrieve a list of schools sorted
 - **Add a school** with name, address, latitude, and longitude.
 - **List schools** sorted by distance from a user's location.
 - **Input validation** to ensure data consistency.
-- **Deployed API** (if applicable, add link here).
+- **Deployed API** (https://school-management-api-b4hi.onrender.com).
 - **Postman collection available** for testing.
 
 ---
@@ -70,7 +70,7 @@ By default, the server runs on `http://localhost:5000/`.
 
 ### **1️⃣ Add a School**
 
-- **Endpoint:** `POST /addSchool`
+- **Endpoint:** `POST /api/v1/school/addSchool`
 - **Payload (JSON):**
 
   ```json
@@ -93,7 +93,7 @@ By default, the server runs on `http://localhost:5000/`.
 
 ### **2️⃣ List Schools**
 
-- **Endpoint:** `GET /listSchools`
+- **Endpoint:** `GET /api/v1/schoo/listSchools`
 - **Query Parameters:**
   - `latitude` (required)
   - `longitude` (required)
