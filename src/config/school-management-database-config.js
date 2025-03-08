@@ -11,7 +11,7 @@ const connection =  mysql.createPool({
     waitForConnections: true,
     enableKeepAlive: true,
     idleTimeout: 30000,
-    connectTimeout: 10000,
+    connectTimeout: 10000
 });
 
 export default connection;
