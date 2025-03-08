@@ -12,6 +12,9 @@ const connection =  mysql.createPool({
     enableKeepAlive: true,
     idleTimeout: 30000,
     connectTimeout: 10000,
+    ssl: {
+        rejectUnauthorized: true
+    }
 });
 
 export default connection;
