@@ -9,7 +9,5 @@ export const {
     DATABASE_PORT,
     DATABASE_USER,
     DATABASE_PASSWORD,
-    DATABASE_NAME,
-    ARCJET_KEY,
-    ARCJET_ENV
+    DATABASE_NAME
 } = process.env;
