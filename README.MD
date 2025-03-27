@@ -9,7 +9,7 @@ This API allows users to **add schools** and **retrieve a list of schools sorted
 - **Add a school** with name, address, latitude, and longitude.
 - **List schools** sorted by distance from a user's location.
 - **Input validation** to ensure data consistency.
-- **Deployed API** (https://school-management-api-b4hi.onrender.com).
+- **Deployed API** (https://school-management-api.com).
 - **Postman collection available** for testing.
 
 ---
